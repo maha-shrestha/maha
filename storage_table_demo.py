@@ -1,4 +1,4 @@
-import string,random,time,azureum,json
+import string,random,time,azurerm,json
 from azure.storage.table import TableService, Entity
 
 # Define variables to handle Azure authentication
