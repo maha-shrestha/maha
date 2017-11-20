@@ -69,26 +69,29 @@ raw_input('Press Enter to continue...')
 
 car = Entity()
 car.PartitionKey = 'carinfo'
+car.RowKey = '001'
 car.Make = 'Honda'
 car.Model = 'Civic'
 car.Year = 2015
 car.Color = 'RED'
 car.Price = 25,000
 table_service.insert_entity('itemstable', car)
-print('Created entry for HONDA...\n')
+print('Created entry for HONDA...')
 
 car = Entity()
 car.PartitionKey = 'carinfo'
+car.RowKey = '002'
 car.Make = 'Tesla'
 car.Model = 'Model 3'
 car.Year = 2015
 car.Color = 'BLACK'
 car.Price = 60,000
 table_service.insert_entity('itemstable', car)
-print('Created entry for Tesla...\n')
+print('Created entry for Tesla...')
 
 car = Entity()
 car.PartitionKey = 'carinfo'
+car.RowKey = '003'
 car.Make = 'Toyato'
 car.Model = 'Camry'
 car.Year = 2015
@@ -103,6 +106,7 @@ print('Created entry for Toyata...\n')
 
 coffee = Entity()
 coffee.PartitionKey = 'coffeestore'
+coffee.RowKey = '004'
 coffee.Brand = 'Tata Starbucks'
 coffee.Flavor = 'Almond coffee'
 coffee.Size = 'Midium'
@@ -113,6 +117,7 @@ time.sleep(1)
 
 coffee = Entity()
 coffee.PartitionKey = 'coffeestore'
+coffee.RowKey = '005'
 coffee.Brand = 'Tom N Toms'
 coffee.Flavor = 'Banana coffee'
 coffee.Size = 'Small'
