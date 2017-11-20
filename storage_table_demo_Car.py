@@ -74,7 +74,7 @@ car.Make = 'Honda'
 car.Model = 'Civic'
 car.Year = 2015
 car.Color = 'RED'
-car.Price = 25,000
+car.Price = 25000
 table_service.insert_entity('itemstable', car)
 print('Created entry for HONDA...')
 
@@ -85,7 +85,7 @@ car.Make = 'Tesla'
 car.Model = 'Model 3'
 car.Year = 2015
 car.Color = 'BLACK'
-car.Price = 60,000
+car.Price = 60000
 table_service.insert_entity('itemstable', car)
 print('Created entry for Tesla...')
 
@@ -96,7 +96,7 @@ car.Make = 'Toyato'
 car.Model = 'Camry'
 car.Year = 2015
 car.Color = 'BLACK'
-car.Price = 20,000
+car.Price = 20000
 table_service.insert_entity('itemstable', car)
 print('Created entry for Toyata...\n')
 
